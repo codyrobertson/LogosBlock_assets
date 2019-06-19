@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Basis Grotesque';
+    src: url('hinted-BasisGrotesque-Bold.eot');
+    src: local('BasisGrotesque-Bold'),
+        url('hinted-BasisGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BasisGrotesque-Bold.woff2') format('woff2'),
+        url('hinted-BasisGrotesque-Bold.woff') format('woff'),
+        url('hinted-BasisGrotesque-Bold.ttf') format('truetype'),
+        url('hinted-BasisGrotesque-Bold.svg#BasisGrotesque-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque';
+    src: url('hinted-BasisGrotesque-Regular.eot');
+    src: local('Basis Grotesque'), local('BasisGrotesque-Regular'),
+        url('hinted-BasisGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BasisGrotesque-Regular.woff2') format('woff2'),
+        url('hinted-BasisGrotesque-Regular.woff') format('woff'),
+        url('hinted-BasisGrotesque-Regular.ttf') format('truetype'),
+        url('hinted-BasisGrotesque-Regular.svg#BasisGrotesque-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque';
+    src: url('hinted-BasisGrotesque-Medium.eot');
+    src: local('Basis Grotesque Medium'), local('BasisGrotesque-Medium'),
+        url('hinted-BasisGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BasisGrotesque-Medium.woff2') format('woff2'),
+        url('hinted-BasisGrotesque-Medium.woff') format('woff'),
+        url('hinted-BasisGrotesque-Medium.ttf') format('truetype'),
+        url('hinted-BasisGrotesque-Medium.svg#BasisGrotesque-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque';
+    src: url('hinted-BasisGrotesque-Black.eot');
+    src: local('BasisGrotesque-Black'),
+        url('hinted-BasisGrotesque-Black.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BasisGrotesque-Black.woff2') format('woff2'),
+        url('hinted-BasisGrotesque-Black.woff') format('woff'),
+        url('hinted-BasisGrotesque-Black.ttf') format('truetype'),
+        url('hinted-BasisGrotesque-Black.svg#BasisGrotesque-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Mono';
+    src: url('hinted-BasisGrotesque-Mono.eot');
+    src: local('Basis Grotesque Mono'), local('BasisGrotesque-Mono'),
+        url('hinted-BasisGrotesque-Mono.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BasisGrotesque-Mono.woff2') format('woff2'),
+        url('hinted-BasisGrotesque-Mono.woff') format('woff'),
+        url('hinted-BasisGrotesque-Mono.ttf') format('truetype'),
+        url('hinted-BasisGrotesque-Mono.svg#BasisGrotesque-Mono') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
