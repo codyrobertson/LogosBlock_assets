@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+ @font-face {
+  font-family: 'lb-icon-font';
+  src: url('../font/lb-icon-font.eot?59693379');
+  src: url('../font/lb-icon-font.eot?59693379#iefix') format('embedded-opentype'),
+       url('../font/lb-icon-font.woff2?59693379') format('woff2'),
+       url('../font/lb-icon-font.woff?59693379') format('woff'),
+       url('../font/lb-icon-font.ttf?59693379') format('truetype'),
+       url('../font/lb-icon-font.svg?59693379#lb-icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'lb-icon-font';
+    src: url('../font/lb-icon-font.svg?59693379#lb-icon-font') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "lb-icon-font";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-info-circle:before { content: '\2139'; } /* 'ℹ' */
+.icon-download:before { content: '\2601'; } /* '☁' */
+.icon-gear:before { content: '\2699'; } /* '⚙' */
+.icon-alert:before { content: '\26a0'; } /* '⚠' */
+.icon-check-circle:before { content: '\2705'; } /* '✅' */
+.icon-write:before { content: '\270f'; } /* '✏' */
+.icon-cross-circle:before { content: '\274c'; } /* '❌' */
+.icon-heart-outline:before { content: '\2764'; } /* '❤' */
+.icon-star:before { content: '\2b50'; } /* '⭐' */
+.icon-flame:before { content: '\e800'; } /* '' */
+.icon-hidden:before { content: '\e807'; } /* '' */
+.icon-mute:before { content: '\e80d'; } /* '' */
+.icon-signal:before { content: '\e810'; } /* '' */
+.icon-bolt:before { content: '\e812'; } /* '' */
+.icon-check-box:before { content: '\e813'; } /* '' */
+.icon-add-circle:before { content: '\e815'; } /* '' */
+.icon-minus-circle:before { content: '\e816'; } /* '' */
+.icon-arrows:before { content: '\e819'; } /* '' */
+.icon-sort:before { content: '\e81a'; } /* '' */
+.icon-shield:before { content: '\e81d'; } /* '' */
+.icon-shield-negative:before { content: '\e81e'; } /* '' */
+.icon-shield-broken:before { content: '\e81f'; } /* '' */
+.icon-bookmark:before { content: '\e820'; } /* '' */
+.icon-book-open:before { content: '\e821'; } /* '' */
+.icon-share-alt-1:before { content: '\e822'; } /* '' */
+.icon-share-alt:before { content: '\e823'; } /* '' */
+.icon-globe:before { content: '\e825'; } /* '' */
+.icon-filter:before { content: '\e826'; } /* '' */
+.icon-settings:before { content: '\e827'; } /* '' */
+.icon-sort-down:before { content: '\e828'; } /* '' */
+.icon-layer-move:before { content: '\e829'; } /* '' */
+.icon-layer-stack:before { content: '\e82c'; } /* '' */
+.icon-settings-alt:before { content: '\e82e'; } /* '' */
+.icon-attachment:before { content: '\e832'; } /* '' */
+.icon-link-broken:before { content: '\e834'; } /* '' */
+.icon-tag:before { content: '\e835'; } /* '' */
+.icon-cast:before { content: '\e837'; } /* '' */
+.icon-cover-view:before { content: '\e839'; } /* '' */
+.icon-layer:before { content: '\e83a'; } /* '' */
+.icon-upload:before { content: '\e83b'; } /* '' */
+.icon-location:before { content: '\e83d'; } /* '' */
+.icon-gauge:before { content: '\e83e'; } /* '' */
+.icon-gauge-alt:before { content: '\e83f'; } /* '' */
+.icon-camera:before { content: '\e840'; } /* '' */
+.icon-camera-alt:before { content: '\e841'; } /* '' */
+.icon-webcam:before { content: '\e842'; } /* '' */
+.icon-usb:before { content: '\e843'; } /* '' */
+.icon-robot:before { content: '\e845'; } /* '' */
+.icon-home:before { content: '\e846'; } /* '' */
+.icon-home-alt:before { content: '\e847'; } /* '' */
+.icon-pin:before { content: '\e849'; } /* '' */
+.icon-map:before { content: '\e84c'; } /* '' */
+.icon-sos:before { content: '\e850'; } /* '' */
+.icon-calendar-blank:before { content: '\e851'; } /* '' */
+.icon-calendar-lines:before { content: '\e852'; } /* '' */
+.icon-key-cirlce:before { content: '\e854'; } /* '' */
+.icon-question-cirlce:before { content: '\e858'; } /* '' */
+.icon-user:before { content: '\e859'; } /* '' */
+.icon-group:before { content: '\e85c'; } /* '' */
+.icon-download-1:before { content: '\e85d'; } /* '' */
+.icon-external:before { content: '\e85e'; } /* '' */
+.icon-mic:before { content: '🎙'; } /* '\1f399' */
+.icon-eye:before { content: '👁'; } /* '\1f441' */
+.icon-thumbs-up:before { content: '👍'; } /* '\1f44d' */
+.icon-thumbs-down:before { content: '👎'; } /* '\1f44e' */
+.icon-heart-broken:before { content: '💔'; } /* '\1f494' */
+.icon-compose:before { content: '📝'; } /* '\1f4dd' */
+.icon-search:before { content: '🔍'; } /* '\1f50d' */
+.icon-locked:before { content: '🔒'; } /* '\1f512' */
+.icon-unlock:before { content: '🔓'; } /* '\1f513' */
+.icon-bell:before { content: '🔔'; } /* '\1f514' */
+.icon-bell-cross:before { content: '🔕'; } /* '\1f515' */
+.icon-link:before { content: '🔗'; } /* '\1f517' */
+.icon-wrench:before { content: '🔧'; } /* '\1f527' */
+.icon-archive:before { content: '🗃'; } /* '\1f5c3' */
+.icon-trash:before { content: '🗑'; } /* '\1f5d1' */
+.icon-calendar-date:before { content: '🗓'; } /* '\1f5d3' */
+.icon-error:before { content: '🚫'; } /* '\1f6ab' */
